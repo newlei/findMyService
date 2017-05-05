@@ -1,5 +1,5 @@
 # findMyService
-实验室服务器的ip不知道是多了，接显示屏也无法显示了。写了一个python代码去查找自己的服务器的ip
+实验室服务器的ip不知道是多少了，接显示屏也无法显示了。写了一个python代码去查找自己的服务器的ip
 
 由于需要import Paramiko。通过以下命令即可安装
 pip install paramiko
