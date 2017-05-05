@@ -25,6 +25,6 @@ for i in range(1,254):
 	#ssh2('210.45.249.'+str(i),22,'chenlei','lei')
 	#ssh.close()
 	if flag==1:
-	    t1 = threading.Thread(target=ssh2,args=('210.45.249.'+str(i),22,'chenlei','123',))
+	    t1 = threading.Thread(target=ssh2,args=('210.45.249.'+str(i),22,'username','password',))
 	    t1.start()
  
